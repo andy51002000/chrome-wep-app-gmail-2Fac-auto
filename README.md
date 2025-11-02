@@ -27,7 +27,7 @@ https://github.com/USERNAME/REPO/assets/placeholder
 
 1. **Load the extension once to obtain an ID**
    - Open `chrome://extensions` in Chrome and enable **Developer mode**.
-   - Click **Load unpacked** and select the folder where you cloned or unzipped 2FacTrac (the same directory that contains `manifest.json`).
+   - Click **Load unpacked** and choose this project folder.
    - Chrome assigns an extension ID (visible on the card). Copy it for the next step.
 
 2. **Create OAuth credentials**
