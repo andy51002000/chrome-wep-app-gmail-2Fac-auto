@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "2FacTrac: Gmail Verification Assistant",
+  "description": "Surface recent Gmail verification codes and links directly inside Chrome.",
+  "version": "1.0.0",
+  "action": {
+    "default_title": "2FacTrac",
+    "default_popup": "index.html"
+  },
+  "permissions": ["identity"],
+  "host_permissions": ["https://gmail.googleapis.com/"],
+  "oauth2": {
+    "client_id": "YOUR_CHROME_OAUTH_CLIENT_ID.apps.googleusercontent.com",
+    "scopes": ["https://www.googleapis.com/auth/gmail.readonly"]
+  }
+}
